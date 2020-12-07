@@ -1,0 +1,72 @@
+body {
+    background-color: grey;
+    margin: 0px;
+    text-align: start;
+    font-family: 'Open Sans', sans-serif;
+}
+
+title {
+    margin: 20px;
+    padding: 0px;
+}
+header {
+    margin: 20px;
+}
+
+a {
+    color: orange;
+    text-align:center;
+}
+
+
+.item { 
+    order: 5;
+}
+
+.mainContainer {
+    display:flex;
+    flex-direction: row;
+}
+
+.bluediv {
+    color: white;
+    background-color: midnightblue;
+    margin: 0px;
+    padding: 20px;
+    flex: 1 0 0px;
+    min-height: 100vh;
+}
+
+.whitediv {
+    flex: 4 0 0px;
+    background-color: white;
+    min-height: 100vh;
+    padding: 20px;
+    flex: 1 0 0px;
+    min-height: 100vh;
+}
+
+footer {
+    text-align: center;
+}
+
+.suitpic {
+    width: 200px;
+    height: 300px;
+}
+
+img {
+width: 100%;
+height: inherit;
+object-fit: cover;
+}
+
+@media screen and (max-widht:720px){
+    .mainContainer {
+        flex-direction:column;
+    }
+}
+
+.cvlink {
+    text-align:center;
+}
