@@ -1,5 +1,5 @@
 body {
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.685);
     margin: 0px;
     text-align: start;
     font-family: 'Open Sans', sans-serif;
@@ -14,7 +14,7 @@ header {
 }
 
 a {
-    color: orange;
+    color: rgb(7, 7, 7);
     text-align:center;
 }
 
@@ -30,11 +30,12 @@ a {
 
 .bluediv {
     color: white;
-    background-color: midnightblue;
+    background-color: rgba(180, 180, 180, 0.747);
     margin: 0px;
     padding: 20px;
     flex: 1 0 0px;
     min-height: 100vh;
+    align-items: center;
 }
 
 .whitediv {
@@ -48,6 +49,7 @@ a {
 
 footer {
     text-align: center;
+    background-color: rgb(12, 88, 250);
 }
 
 .suitpic {
@@ -69,4 +71,20 @@ object-fit: cover;
 
 .cvlink {
     text-align:center;
+}
+
+.box1{
+    display: flex;
+    width: 500px;
+    height: 300px;
+}
+.box2{
+    display: flex;
+    width: 500px;
+    height: 300px;
+}
+.box3{
+    display: flex;
+    width: 500px;
+    height: 300px;
 }
